@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://d.tw527e.eu.org" target="blank">
+  <a href="https://replit-d.tw527e.eu.org" target="blank">
     <img src="Readme/Icon.png" alt="Logo" width="156" height="156">
   </a>
   <h2 align="center" style="font-weight: 600">renexmoe-tw527e-edition</h2>
@@ -8,7 +8,7 @@
   <p align="center">
     高顏值 OneManager 主題
     <br /><br />
-    <a href="https://d.tw527e.eu.org"><img src="https://img.shields.io/badge/%E9%A0%90%E8%A6%BD-DEMO-blue?style=for-the-badge&logo=Cockpit" alt="預覽 DEMO"></a>&nbsp;&nbsp;<a href="https://github.com/TW527E/renexmoe-tw527e-edition/releases/latest"><img src="https://img.shields.io/github/v/release/TW527E/renexmoe-tw527e-edition.svg?include_prereleases&logo=Acclaim&style=for-the-badge" alt="GitHub Release"></a>&nbsp;&nbsp;
+    <a href="README_ZH-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-README.md-blue?style=for-the-badge&logo=Radar" alt="简体中文 README.MD"></a>&nbsp;&nbsp;<a href="https://om.tw527e.eu.org"><img src="https://img.shields.io/badge/%E9%A0%90%E8%A6%BD-DEMO-blue?style=for-the-badge&logo=Cockpit" alt="預覽 DEMO"></a>&nbsp;&nbsp;<a href="https://github.com/TW527E/renexmoe-tw527e-edition/releases/latest"><img src="https://img.shields.io/github/v/release/TW527E/renexmoe-tw527e-edition.svg?include_prereleases&logo=GitHub&style=for-the-badge" alt="GitHub Release"></a>&nbsp;&nbsp;<a href="https://www.npmjs.com/package/renexmoe-tw527e-edition"><img src="https://img.shields.io/npm/v/renexmoe-tw527e-edition?logo=npm&style=for-the-badge" alt="npm"></a>&nbsp;&nbsp;
     <a href="https://t.me/Cheng_Group"><img src="https://img.shields.io/badge/Telegram-Group-blue?style=for-the-badge&logo=Telegram" alt="Telegran Gruop"></a>
     <br />
     <br />
@@ -25,7 +25,7 @@
 - 📍 **`backgroundm`** 選項調用至 **`網頁 Icon`**
 - 🔲 增加 **`背景毛玻璃`**
 - 🎨 **`主題顏色`** 調整為 **`奶茶色`**
-- 📦 **`CDN`** 透過 [**`jsDelivr`**](https://jsdelivr.com) 代理
+- 📦 提供 **`多種`**  [**`CDN`**](releases) 選擇
 - 📺 **`影片播放器`** 更改為 [**`DPlayer`**](https://dplayer.js.org)
 - 🎵 **`音訊播放器`** 更改為 [**`APlayer`**](https://aplayer.js.org)
 - 🕓 增加 **`自動恢復上次播放時間`**
@@ -44,7 +44,7 @@
 - 🎨 **`主題顏色`** 調整為 **`奶茶色`**
 - 📜 修復 **`PDF 預覽`**
 - 📑 修復 **`OFFICE 預覽排版`**
-- 📦 **`CDN`** 透過 [jsDelivr](https://jsdelivr.com) 代理
+- 📦 提供 **`多種`**  [**`CDN`**](releases) 選擇
 - 📺 **`影片播放器`** 更改為 [DPlayer](https://dplayer.js.org)
 - 🎵 **`音訊播放器`** 更改為 [APlayer](https://aplayer.js.org)
 - 🕓 增加 **`自動恢復上次播放時間`**
@@ -52,7 +52,7 @@
 - 🔠 將 **`字體`** 更改為 [Noto Sans TC SC HK](https://fonts.google.com/noto/fonts)
 - ⏏️ 新增 **`頁腳`**
 - 📶 修復 **`路徑未顯示盤名`**
-- 🪛 修復 **`登入按鈕`**
+- 📲 修復 **`登入按鈕`**
 
 </Pre>
 </Details>
@@ -62,21 +62,35 @@
 
 此版本由 [@TW527E](https://github.com/TW527E) 維護，作用於 [OneManager-php](https://github.com/qkqpttgf/OneManager-php)
 
-訪問此項目的 [Releases](releases) 頁面下載主題檔案
+訪問此項目的 [Releases](releases) 頁面取得主題檔案下載連結
 
-### ✅ 1: 下載至目錄
+### 🍄 1: 透過 customTheme 選項 (推薦: 因為 🍄 終於修復好了!w 好耶!)
+
+1. 登入您的 OneManager 後台，並進入設定
+2. 選擇 **`平台變數`** 頁面
+3. 在 **`customTheme`** 選項內，輸入 **`以下幾個 CDN 的其中一個`**
+- (UNPKG: **`https://unpkg.com/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition.html`**)
+- (饿了么 CDN: **`https://npm.elemecdn.com/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition-elemecdn.html`**)
+- (Statically: **`https://raw.githubusercontent.com/TW527E/renexmoe-tw527e-edition/master/renexmoe-tw527e-edition-statically.html`**)
+- (JsDelivr CDN: **`https://cdn.jsdelivr.net/gh/TW527E/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition-jsdelivr-cdn.html`**)
+- (JsDelivr Fastly: **`https://fastly.jsdelivr.net/gh/TW527E/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition-jsdelivr-fastly.html`**)
+- (JsDelivr Gcore: **`https://gcore.jsdelivr.net/gh/TW527E/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition-jsdelivr-gcore.html`**)
+- (JsDelivr OriginFastly: **`https://originfastly.jsdelivr.net/gh/TW527E/renexmoe-tw527e-edition@latest/renexmoe-tw527e-edition-jsdelivr-originfastly.html`**)
+4. 套用設定
+5. 等待緩存刷新，完成
+
+### 📁 2: 下載至目錄
 
 1. 下載 [**`renexmoe-tw527e-edition`**](https://github.com/TW527E/renexmoe-tw527e-edition/releases)
 2. 將 **`renexmoe-tw527e-edition.html`** 複製至 **`/OneManager 根目錄/theme`**
 
-### ⚠️ 2: 透過 customTheme 選項 (好像不行w)
+### 🔧 3: 使用我的 OneManager-php (不推薦)
 
 1. 登入您的 OneManager 後台，並進入設定
-2. 選擇 **`平台變數`** 頁面
-3. 在 **`customTheme`** 選項內，輸入 **`https://raw.githubusercontent.com/TW527E/renexmoe-tw527e-edition/master/renexmoe-tw527e-edition.html`**
-- `(jsDelivr: https://cdn.jsdelivr.net/gh/TW527E/renexmoe-tw527e-edition@master/renexmoe-tw527e-edition.html)`
-4. 套用設定
-5. 等待緩存刷新，完成
+2. 選擇 **`首頁`** 頁面
+3. 在 **`Update from`** 選擇 `GitHub` `TW527E` `OneManager-php` `master`
+4. 點擊 **`一鍵更新`**
+5. 等待更新，完成
 
 
 ## 🔧 主題設定
@@ -88,6 +102,7 @@
 1. 登入您的 OneManager 後台，並進入設定
 2. 選擇 **`平台變數`** 頁面
 3. 在 **`customScript`** 選項內，輸入 **`<script>document.querySelector('.blur').style = "backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px)"</script>`**
+- (可自行調整數字 "2" 的大小，越大背景越模糊，越小背景越清楚)
 4. 套用設定
 5. 等待緩存刷新，完成 **`(請等待至少30分鐘，使customScript選項生效)`**
 </Pre>
@@ -152,6 +167,10 @@ Readme 寫法及圖片做法來自 [qier222/YesPlayMusic](https://github.com/qie
 
 - [aadsm/jsmediatags](https://github.com/aadsm/jsmediatags)
 
+- [Xhofe/alist](https://github.com/Xhofe/alist)
+
+- [mjackson/unpkg](https://github.com/mjackson/unpkg)
+
 - [fontsource/fontsource](https://github.com/fontsource/fontsource)
 
 - [highlightjs/cdn-release](https://github.com/highlightjs/cdn-release)
@@ -160,15 +179,13 @@ Readme 寫法及圖片做法來自 [qier222/YesPlayMusic](https://github.com/qie
 
 - [linkgod/SHA-1](https://github.com/linkgod/SHA-1)
 
-- [google/fonts](https://github.com/google/fonts)
-
 
 ## 🎗️ 支持我
 
 目前可以以下列方式支持我
 
 - ⭐ Star 這個專案
-- 🪛 Fork 這個專案
+- 🔌 Fork 這個專案
 - 👥 <a href="https://t.me/Cheng_Group">加入 Telegram 群組</a>
 - 🔴 目前還無法透過贊助的方式支持我 `(未成年又沒有銀行帳戶w)`
 
